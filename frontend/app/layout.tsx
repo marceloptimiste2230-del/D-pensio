@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mon budget",
-  description: "Suivez vos revenus, vos dépenses et votre solde en GNF.",
+  title: "Dépensio",
+  description: "Suivez vos revenus, vos dépenses et votre solde en GNF avec Dépensio.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

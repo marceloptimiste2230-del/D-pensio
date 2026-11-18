@@ -316,7 +316,7 @@ export default function Home() {
             <span className="grid size-10 place-items-center rounded-full bg-warning/15 text-warning">
               <Wallet aria-hidden="true" size={20} />
             </span>
-            <span>Mon budget</span>
+            <span>Dépensio</span>
           </div>
           <h1 className="text-2xl font-semibold">
             {authMode === "register" ? "Créer un compte" : "Connexion"}
@@ -453,7 +453,7 @@ export default function Home() {
             <span className="grid size-9 place-items-center rounded-full bg-warning/15 text-warning">
               <Wallet aria-hidden="true" size={18} />
             </span>
-            <span>Mon budget</span>
+            <span>Dépensio</span>
           </Link>
           <div className="flex items-center gap-3">
             <div className="hidden text-right sm:block">
