@@ -1,0 +1,27 @@
+﻿# Dependencies
+node_modules/
+frontend/node_modules/
+**/.next/
+**/dist/
+
+# Python virtual environments
+Backend/env/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local databases and environment files
+Backend/db.sqlite3
+.env
+.env.*
+*.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

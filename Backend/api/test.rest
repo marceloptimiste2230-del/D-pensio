@@ -1,0 +1,31 @@
+ POST http://localhost:8000/api/transactions/
+Content-Type: application/json
+
+{
+    "text": "Salaire Juin",
+    "amount": 10000.00
+}
+###
+GET http://localhost:8000/api/transactions/
+
+###
+DELETE http://localhost:8000/api/transactions/7aabdd9f-8951-46e7-aed9-fc41106a30d1/
+
+
+###
+PUT http://localhost:8000/api/transactions/59d6ffc1-6076-4747-b92c-acc2d5fb07a6/
+Content-Type: application/json
+
+{
+    "text": "Salaire Janvier",
+    "amount": 900090.00
+}
+
+
+###
+PATCH http://localhost:8000/api/transactions/59d6ffc1-6076-4747-b92c-acc2d5fb07a6/
+Content-Type: application/json
+
+{
+    "amount": 70000.00
+}
